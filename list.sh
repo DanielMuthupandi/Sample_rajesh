@@ -1,4 +1,4 @@
 #!/bin/sh
-pwd
-whoami
-ls -a
+pwd > output.txt
+whoami >> output.txt
+ls -a >> output.txt
